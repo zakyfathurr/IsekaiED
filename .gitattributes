@@ -1,0 +1,8 @@
+# Normalize all text files to LF in the repository
+* text=auto
+
+# Explicitly set line endings for specific file types
+*.sh text eol=lf
+*.bat text eol=crlf
+*.txt text eol=lf
+*.cs text eol=lf
