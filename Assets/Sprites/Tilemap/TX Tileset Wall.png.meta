@@ -1,14 +1,37 @@
 fileFormatVersion: 2
-guid: 90c7332c857b6b043bad30766e14a946
-AssetOrigin:
-  serializedVersion: 1
-  productId: 284492
-  packageName: Evil Wizard 3
-  packageVersion: 1.0
-  assetPath: Assets/Evil Wizard 3/Sprites/Idle.png
-  uploadId: 666277
+guid: 223c2275a79a69844a9bf2d9fb2e44d2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1733087341866461178
+    second: TX Tileset Wall_0
+  - first:
+      213: 6957734447361721616
+    second: TX Tileset Wall_1
+  - first:
+      213: 6591716156378716260
+    second: TX Tileset Wall_2
+  - first:
+      213: 2165944517536112100
+    second: TX Tileset Wall_3
+  - first:
+      213: 6429608448122266744
+    second: TX Tileset Wall_4
+  - first:
+      213: -8038740358467470550
+    second: TX Tileset Wall_5
+  - first:
+      213: -5334644376926737371
+    second: TX Tileset Wall_6
+  - first:
+      213: -5954229690154693420
+    second: TX Tileset Wall_7
+  - first:
+      213: -522149132528552129
+    second: TX Tileset Wall_8
+  - first:
+      213: 6981085378657702106
+    second: TX Tileset Wall_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -88,7 +111,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -101,7 +124,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -117,221 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: TX Tileset Wall_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 31
+        y: 351
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6fff3a5fbaa50d49981f6bfc0ec8152
-      internalID: 462434960
+      spriteID: 608d25fae36d2f7e0800000000000000
+      internalID: -1733087341866461178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: TX Tileset Wall_1
       rect:
         serializedVersion: 2
-        x: 140
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 151
+        y: 375
+        width: 116
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4f175b4c526722446b16e81f9615c85b
-      internalID: -1549590570
+      spriteID: 0158e70cd96de8060800000000000000
+      internalID: 6957734447361721616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
+      name: TX Tileset Wall_2
       rect:
         serializedVersion: 2
-        x: 280
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 287
+        y: 383
+        width: 12
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 708492d00a2e852439c02ae704c37508
-      internalID: -1753734532
+      spriteID: 46818297bea7a7b50800000000000000
+      internalID: 6591716156378716260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_3
+      name: TX Tileset Wall_3
       rect:
         serializedVersion: 2
-        x: 420
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 343
+        y: 383
+        width: 10
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6fcd15523021c734a8d0f3f2b6a10062
-      internalID: 1381004252
+      spriteID: 4edd1f2201bfe0e10800000000000000
+      internalID: 2165944517536112100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_4
+      name: TX Tileset Wall_4
       rect:
         serializedVersion: 2
-        x: 560
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 383
+        y: 471
+        width: 98
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cfc0fe2986e081e4cb4d33828485bce4
-      internalID: -1072028288
+      spriteID: 874ad2b61de8a3950800000000000000
+      internalID: 6429608448122266744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_5
+      name: TX Tileset Wall_5
       rect:
         serializedVersion: 2
-        x: 700
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 383
+        y: 351
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cf3bb4da83def1e45a646a574c9460d0
-      internalID: -771920247
+      spriteID: a2b33fb2c38a07090800000000000000
+      internalID: -8038740358467470550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_6
+      name: TX Tileset Wall_6
       rect:
         serializedVersion: 2
-        x: 840
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 31
+        y: 255
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 839d3122fdafa1340b65a7e310a8e8e4
-      internalID: 918264046
+      spriteID: 52c2f3e043987f5b0800000000000000
+      internalID: -5334644376926737371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_7
+      name: TX Tileset Wall_7
       rect:
         serializedVersion: 2
-        x: 980
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 191
+        y: 255
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7ba5106f606dfee4d82171dd3dfd680a
-      internalID: 1997893319
+      spriteID: 4dcce37c4a35e5da0800000000000000
+      internalID: -5954229690154693420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_8
+      name: TX Tileset Wall_8
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 31
+        y: 159
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 16987c7805c6c964eb1a8170d5e709be
-      internalID: -146675162
+      spriteID: f377bd36124f0c8f0800000000000000
+      internalID: -522149132528552129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_9
+      name: TX Tileset Wall_9
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 0
-        width: 140
-        height: 140
-      alignment: 9
-      pivot: {x: 0.47, y: 0.35}
+        x: 127
+        y: 159
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3c031df7ac3de694399868522e631ab5
-      internalID: 2104043760
+      spriteID: ad0d09d1a2cc1e060800000000000000
+      internalID: 6981085378657702106
       vertices: []
       indices: 
       edges: []
@@ -340,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -350,16 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle_0: 462434960
-      Idle_1: -1549590570
-      Idle_2: -1753734532
-      Idle_3: 1381004252
-      Idle_4: -1072028288
-      Idle_5: -771920247
-      Idle_6: 918264046
-      Idle_7: 1997893319
-      Idle_8: -146675162
-      Idle_9: 2104043760
+      TX Tileset Wall_0: -1733087341866461178
+      TX Tileset Wall_1: 6957734447361721616
+      TX Tileset Wall_2: 6591716156378716260
+      TX Tileset Wall_3: 2165944517536112100
+      TX Tileset Wall_4: 6429608448122266744
+      TX Tileset Wall_5: -8038740358467470550
+      TX Tileset Wall_6: -5334644376926737371
+      TX Tileset Wall_7: -5954229690154693420
+      TX Tileset Wall_8: -522149132528552129
+      TX Tileset Wall_9: 6981085378657702106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
