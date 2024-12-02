@@ -10,6 +10,11 @@ public class PlayerController : MonoBehaviour
     private PlayerControls playerControls;
     private Vector2 movement;
     private Rigidbody2D rb;
+    public int[] GetPlayerPositions()
+    {
+        return new int[] { (int)transform.position.x, (int)transform.position.y };
+    }
+
 
     private void Awake()
     {
